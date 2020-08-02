@@ -20,7 +20,7 @@ CREATE TABLE chatrooms (
             id INT(11)        PRIMARY KEY AUTO_INCREMENT,
           name VARCHAR(100)   UNIQUE NOT NULL,
    description VARCHAR(1000),
-   is_sendable TINYINT(1)     DEFAULT 0 NOT NULL,
+   is_sendable TINYINT(1)     DEFAULT 1 NOT NULL,
    is_directed TINYINT(1)     DEFAULT 0 NOT NULL,
     is_deleted TINYINT(1)     DEFAULT 0 NOT NULL,
     created_at DATETIME       NOT NULL,
