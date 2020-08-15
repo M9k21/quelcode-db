@@ -17,16 +17,16 @@ mobile_number VARCHAR(13)
 );
 -- chatroomsテーブルの作成
 CREATE TABLE chatrooms (
-            id INT(11)        PRIMARY KEY AUTO_INCREMENT,
-          name VARCHAR(100)   UNIQUE NOT NULL,
-   description VARCHAR(1000),
-allow_file_send   TINYINT(1)     DEFAULT 1 NOT NULL,
+               id INT(11)        PRIMARY KEY AUTO_INCREMENT,
+             name VARCHAR(100)   UNIQUE NOT NULL,
+      description VARCHAR(1000),
+  allow_file_send TINYINT(1)     DEFAULT 1 NOT NULL,
 allow_direct_chat TINYINT(1)     DEFAULT 0 NOT NULL,
-    is_deleted TINYINT(1)     DEFAULT 0 NOT NULL,
-    created_at DATETIME       NOT NULL,
-create_user_id INT(11)        NOT NULL REFERENCES users(id),
-    updated_at DATETIME       NOT NULL,
-update_user_id INT(11)        NOT NULL REFERENCES users(id)
+       is_deleted TINYINT(1)     DEFAULT 0 NOT NULL,
+       created_at DATETIME       NOT NULL,
+   create_user_id INT(11)        NOT NULL REFERENCES users(id),
+       updated_at DATETIME       NOT NULL,
+   update_user_id INT(11)        NOT NULL REFERENCES users(id)
 );
 -- messagesテーブルの作成
 CREATE TABLE messages (
