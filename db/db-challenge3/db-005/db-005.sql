@@ -15,6 +15,8 @@
  FROM
  tasks;
  */
+BEGIN;
+
 INSERT INTO
     tasks
 VALUES
@@ -31,6 +33,10 @@ VALUES
         '2020-04-21 13:13:20',
         1
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     tasks
@@ -49,6 +55,10 @@ VALUES
         4
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     tasks
 VALUES
@@ -65,6 +75,10 @@ VALUES
         '2020-04-24 13:43:12',
         2
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     tasks
@@ -83,6 +97,10 @@ VALUES
         10
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     tasks
 VALUES
@@ -99,6 +117,10 @@ VALUES
         '2020-04-26 01:06:43',
         7
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     tasks
@@ -117,6 +139,10 @@ VALUES
         1
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     tasks
 VALUES
@@ -134,6 +160,10 @@ VALUES
         1
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     tasks
 VALUES
@@ -150,3 +180,5 @@ VALUES
         '2020-04-26 13:23:50',
         1
     );
+
+COMMIT;
