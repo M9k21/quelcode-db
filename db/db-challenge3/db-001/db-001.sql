@@ -103,6 +103,8 @@ VALUES
 
 COMMIT;
 
+BEGIN;
+
 INSERT INTO
     users
 VALUES
@@ -115,6 +117,8 @@ VALUES
         '2020-04-22 18:46:01',
         '2020-04-22 18:46:01'
     );
+
+COMMIT;
 
 BEGIN;
 
@@ -138,6 +142,8 @@ VALUES
 
 COMMIT;
 
+BEGIN;
+
 INSERT INTO
     users
 VALUES
@@ -150,6 +156,8 @@ VALUES
         '2020-04-23 09:54:32',
         '2020-04-23 09:54:32'
     );
+
+COMMIT;
 
 BEGIN;
 
