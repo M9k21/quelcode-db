@@ -14,6 +14,8 @@
  FROM
  chatrooms;
  */
+BEGIN;
+
 INSERT INTO
     chatrooms
 VALUES
@@ -29,6 +31,10 @@ VALUES
         '2020-04-21 11:26:32',
         1
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     chatrooms
@@ -46,6 +52,10 @@ VALUES
         2
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     chatrooms
 VALUES
@@ -61,6 +71,10 @@ VALUES
         '2020-04-25 10:33:55',
         9
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     chatrooms
@@ -78,6 +92,10 @@ VALUES
         7
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     chatrooms
 VALUES
@@ -93,6 +111,10 @@ VALUES
         '2020-04-23 14:34:58',
         1
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     chatrooms
@@ -110,6 +132,10 @@ VALUES
         1
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     chatrooms
 VALUES
@@ -126,6 +152,10 @@ VALUES
         1
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     chatrooms
 VALUES
@@ -141,3 +171,5 @@ VALUES
         '2020-04-27 15:41:33',
         1
     );
+
+COMMIT;
