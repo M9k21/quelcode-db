@@ -13,7 +13,7 @@
  u.updated_at
  FROM
  users AS u
- LEFT JOIN user_profile AS p ON u.id = p.user_id
+ JOIN user_profile AS p ON u.id = p.user_id
  */
 BEGIN;
 
