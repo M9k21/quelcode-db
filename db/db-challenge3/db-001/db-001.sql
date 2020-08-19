@@ -118,6 +118,11 @@ VALUES
         '2020-04-22 18:46:01'
     );
 
+INSERT INTO
+    user_profile
+VALUES
+    (5, NULL, NULL, NULL);
+
 COMMIT;
 
 BEGIN;
