@@ -13,6 +13,8 @@
  FROM
  messages;
  */
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -26,6 +28,10 @@ VALUES
         1,
         '2020-04-21 13:11:55'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -41,6 +47,10 @@ VALUES
         '2020-04-22 16:10:11'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -54,6 +64,10 @@ VALUES
         3,
         '2020-04-22 17:45:29'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -69,6 +83,10 @@ VALUES
         '2020-04-22 18:50:11'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -82,6 +100,10 @@ VALUES
         2,
         '2020-04-24 13:41:40'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -97,6 +119,10 @@ VALUES
         '2020-04-24 13:42:42'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -110,6 +136,10 @@ VALUES
         3,
         '2020-04-24 13:44:03'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -125,6 +155,10 @@ VALUES
         '2020-04-25 08:06:49'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -138,6 +172,10 @@ VALUES
         8,
         '2020-04-25 15:42:22'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -153,6 +191,10 @@ VALUES
         '2020-04-25 19:51:10'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -166,6 +208,10 @@ VALUES
         5,
         '2020-04-25 21:15:26'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -181,6 +227,10 @@ VALUES
         '2020-04-26 00:12:43'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -194,6 +244,10 @@ VALUES
         1,
         '2020-04-26 10:12:58'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -209,6 +263,10 @@ VALUES
         '2020-04-26 11:21:44'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -222,6 +280,10 @@ VALUES
         3,
         '2020-04-26 14:22:45'
     );
+
+COMMIT;
+
+BEGIN;
 
 INSERT INTO
     messages
@@ -237,6 +299,10 @@ VALUES
         '2020-04-26 16:22:50'
     );
 
+COMMIT;
+
+BEGIN;
+
 INSERT INTO
     messages
 VALUES
@@ -250,3 +316,5 @@ VALUES
         10,
         '2020-04-26 18:09:37'
     );
+
+COMMIT;
