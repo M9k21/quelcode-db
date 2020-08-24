@@ -1,7 +1,7 @@
 SELECT
     u.name AS '参加ユーザー名',
     c.name AS '参加チャットルーム名',
-    SUBSTRING(p.participated_at, 1, 10) AS '参加日時'
+    DATE_FORMAT(p.participated_at, '%Y年%m月%d日') AS '参加日時'
 FROM
     participation AS p
     JOIN users AS u ON p.user_id = u.id
