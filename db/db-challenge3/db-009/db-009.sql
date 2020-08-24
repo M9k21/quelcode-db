@@ -11,4 +11,4 @@ WHERE
 GROUP BY
     m.chatroom_id
 ORDER BY
-    COUNT(*) DESC
+    '投稿数' DESC
